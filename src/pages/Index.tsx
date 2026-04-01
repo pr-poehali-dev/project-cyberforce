@@ -5,11 +5,11 @@ export default function Index() {
       <nav className="fixed top-0 left-0 w-full z-50 bg-white border-b border-black">
         <div className="container mx-auto px-4 md:px-8 py-4 flex justify-between items-center">
           <a href="/" className="text-xl font-bold tracking-tighter">
-            GRIDFORM
+            DEVCRAFT
           </a>
           <div className="flex space-x-8">
             <a href="#work" className="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">
-              Работы
+              Проекты
             </a>
             <a href="#about" className="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">
               О нас
@@ -26,12 +26,12 @@ export default function Index() {
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-7 mb-8 md:mb-0">
             <h1 className="text-8xl md:text-9xl font-bold tracking-tighter leading-none mb-6">
-              GRID
+              WEB
               <br />
-              FORM
+              CODE
             </h1>
             <p className="text-xl max-w-xl">
-              Ясность. Точность. Структура. Мы превращаем сложные идеи в чистый, функциональный дизайн, который говорит сам за себя.
+              Скорость. Точность. Результат. Разрабатываем сайты и веб-приложения, которые работают на ваш бизнес — без лишнего шума.
             </p>
           </div>
           <div className="col-span-12 md:col-span-5 flex items-center justify-center">
@@ -45,7 +45,7 @@ export default function Index() {
       {/* Work Section */}
       <section id="work" className="py-20 px-4 md:px-8 bg-black text-white">
         <div className="container mx-auto">
-          <h2 className="text-6xl font-bold tracking-tighter mb-12">РАБОТЫ</h2>
+          <h2 className="text-6xl font-bold tracking-tighter mb-12">ПРОЕКТЫ</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project 1 */}
@@ -55,8 +55,8 @@ export default function Index() {
                   <span className="text-black text-8xl font-bold">01</span>
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-2">TechFlow Solutions</h3>
-              <p className="text-neutral-400">Полный брендинг и типографическая система для финтех-стартапа</p>
+              <h3 className="text-xl font-bold mb-2">E-commerce платформа</h3>
+              <p className="text-neutral-400">Полный редизайн интернет-магазина: +140% конверсия, React + Node.js</p>
             </div>
 
             {/* Project 2 */}
@@ -66,8 +66,8 @@ export default function Index() {
                   <span className="text-black text-8xl font-bold">02</span>
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-2">Alpine Ventures</h3>
-              <p className="text-neutral-400">Минималистичная визуальная коммуникация для инвестиционного фонда</p>
+              <h3 className="text-xl font-bold mb-2">SaaS-дашборд</h3>
+              <p className="text-neutral-400">Аналитическая платформа для B2B: 12 000+ пользователей с первого месяца</p>
             </div>
 
             {/* Project 3 */}
@@ -77,8 +77,8 @@ export default function Index() {
                   <span className="text-black text-8xl font-bold">03</span>
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-2">Nova Industries</h3>
-              <p className="text-neutral-400">Модульная дизайн-система для производственной компании</p>
+              <h3 className="text-xl font-bold mb-2">Корпоративный портал</h3>
+              <p className="text-neutral-400">Внутренняя система документооборота для производственного холдинга</p>
             </div>
           </div>
         </div>
@@ -96,31 +96,31 @@ export default function Index() {
             </div>
             <div className="col-span-12 md:col-span-7 md:pt-24">
               <p className="text-xl mb-6">
-                GRIDFORM - дизайн-студия, преданная принципам ясности, точности и осмысленной коммуникации. Мы верим, что великий дизайн незаметен - он просто работает.
+                DEVCRAFT — студия веб-разработки, где код — это инструмент роста бизнеса. Мы не делаем «просто сайты» — мы создаём цифровые продукты, которые продают.
               </p>
               <p className="mb-6">
-                Наш подход основан на системном мышлении и типографическом мастерстве. Мы используем модульные сетки, чистую гротескную типографику, асимметричные композиции и предметную фотографию для создания дизайна, который говорит ясно и убедительно.
+                Наш подход строится на чистой архитектуре, скорости загрузки и UX, основанном на данных. Каждое решение обосновано: никакого балласта, только то, что работает.
               </p>
               <p className="mb-6">
-                Основанная дизайнерами, убежденными, что форма следует за функцией, мы сотрудничаем с прогрессивными брендами, создавая визуальные языки, которые проверены временем.
+                Команда из разработчиков и дизайнеров с опытом в e-commerce, SaaS и корпоративных продуктах. От прототипа до продакшна — берём полную ответственность за результат.
               </p>
               <div className="grid grid-cols-2 gap-4 mt-12">
                 <div>
-                  <h3 className="text-sm uppercase tracking-widest mb-2">Принципы</h3>
+                  <h3 className="text-sm uppercase tracking-widest mb-2">Технологии</h3>
                   <ul className="space-y-2">
-                    <li>Минимализм</li>
-                    <li>Модульные сетки</li>
-                    <li>Гротескная типографика</li>
-                    <li>Предметная фотография</li>
+                    <li>React / Next.js</li>
+                    <li>Node.js / TypeScript</li>
+                    <li>PostgreSQL / Redis</li>
+                    <li>Docker / CI/CD</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-sm uppercase tracking-widest mb-2">Услуги</h3>
                   <ul className="space-y-2">
-                    <li>Брендинг</li>
-                    <li>Визуальные системы</li>
-                    <li>Типографика</li>
-                    <li>Цифровой дизайн</li>
+                    <li>Сайты и лендинги</li>
+                    <li>Веб-приложения</li>
+                    <li>API и интеграции</li>
+                    <li>Техподдержка</li>
                   </ul>
                 </div>
               </div>
@@ -135,12 +135,12 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
               <h2 className="text-6xl font-bold tracking-tighter mb-8">КОНТАКТЫ</h2>
-              <p className="text-xl mb-8">Заинтересованы в сотрудничестве? Давайте обсудим ваш проект.</p>
+              <p className="text-xl mb-8">Есть задача? Расскажите — обсудим, оценим, запустим.</p>
               <div className="space-y-4">
                 <p className="flex items-center">
                   <span className="w-24 text-sm uppercase tracking-widest">Почта</span>
-                  <a href="mailto:hello@gridform.ru" className="hover:underline">
-                    hello@gridform.ru
+                  <a href="mailto:hello@devcraft.ru" className="hover:underline">
+                    hello@devcraft.ru
                   </a>
                 </p>
                 <p className="flex items-center">
@@ -187,14 +187,14 @@ export default function Index() {
                     id="message"
                     rows={4}
                     className="w-full bg-transparent border-b-2 border-white py-2 px-0 focus:outline-none focus:border-black placeholder-white/50"
-                    placeholder="Ваше сообщение"
+                    placeholder="Опишите вашу задачу"
                   ></textarea>
                 </div>
                 <button
                   type="submit"
                   className="mt-8 px-8 py-3 bg-black text-white text-sm uppercase tracking-widest hover:bg-white hover:text-black transition-colors"
                 >
-                  Отправить
+                  Обсудить проект
                 </button>
               </form>
             </div>
@@ -205,10 +205,10 @@ export default function Index() {
       {/* Footer */}
       <footer className="py-8 px-4 md:px-8 bg-black text-white">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm mb-4 md:mb-0">2025 GRIDFORM Studio. Все права защищены.</p>
+          <p className="text-sm mb-4 md:mb-0">2025 DEVCRAFT Studio. Все права защищены.</p>
           <div className="flex space-x-8">
             <a href="#" className="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">
-              Instagram
+              GitHub
             </a>
             <a href="#" className="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">
               Behance
